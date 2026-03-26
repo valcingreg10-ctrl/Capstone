@@ -1,0 +1,84 @@
+.f-wap{
+    background: white;
+    border-radius: 20px;
+    padding: 28px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    position: sticky;
+    top: 20px;
+        
+}
+.f-title{
+    font-family: 'Syne', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-bottom: 20px;
+
+
+}
+.form { 
+    display: flex; 
+    flex-direction: 
+    column; 
+    gap: 16px; 
+}
+
+.f-group{
+    display: flex; 
+    flex-direction: column; 
+    gap: 6px;
+
+}
+.f-group label{
+    font-size: 12px;
+    font-weight: 800;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.f-group input {
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    color: #1a1a2e;
+    outline: none;
+    transition: border-color 0.2s;
+
+
+}
+.f-group input:focus { 
+    border-color: #6c63ff; 
+}
+.f-group input::placeholder { 
+    color: #c4c4c4; 
+}
+.f-error {
+    background: #fef2f2;
+    color: #dc2626;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+.sub{
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: 'Syne', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    margin-top: 4px;
+
+}
+.sub:hover  { 
+    background: #5548e0; 
+}
+.sub:active { 
+    transform: scale(0.98); 
+}
