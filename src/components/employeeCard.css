@@ -1,0 +1,59 @@
+.card1{
+    background: white;
+    border-radius: 16px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+    animation: slideIn 0.3s ease;
+
+
+}
+.card1-hover{
+     transform: translateY(-2px);
+     box-shadow:0 6px 20px rgba(108, 99, 255, 0.12) ;
+}
+@keyframes slideIn {
+    from{opacity :0 ; transform: translateY(12px);}
+    to{opacity: 1; transform: translateY(0);}
+
+}
+.c-info{
+    flex: 1;
+
+}
+.c-name{
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a1a2e;
+
+}
+.c-position{
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: 2px;
+
+}
+.badge{
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+.badge-active{
+    background: #dcfce7;
+    color: #16a34a;
+}
+.badge-inactive{
+    background: #f3f4f6;
+    color: #9ca3af;
+}
+.c-depart{
+    font-size: 0.78rem;
+    color: #9ca3af;
+    margin-top: 2px;
+}
