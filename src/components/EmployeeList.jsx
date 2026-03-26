@@ -1,4 +1,5 @@
 import EmployeeCard from "./EmployeeCard";
+import './employeelist.css'
 export default function EmployeeList({employees}){
     if (employees.lenght===0){
         return <p className="empty">No employee detected</p>;

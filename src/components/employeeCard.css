@@ -24,6 +24,7 @@
     flex: 1;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Syne:wght@700;800&display=swap');
 .c-name{
     font-family: 'Syne', sans-serif;
     font-size: 1rem;

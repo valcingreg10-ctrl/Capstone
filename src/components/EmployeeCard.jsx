@@ -1,3 +1,4 @@
+import './employeeCard.css'
 export default function EmployeeCard({employee}){
        const { name, position, department, status}= employee;
        return(
@@ -8,10 +9,7 @@ export default function EmployeeCard({employee}){
             <p className="c-depart">{department}</p>
           </div>
           <span className={`badge ${status=== "active" ? "badge-active" :"badge-inactive"}`}>
-            {status ==="active" ? " Active" : "Inactive"}
-
-          </span>
-
-</div>
+            {status ==="active" ? " Active" : "Inactive"}</span>
+        </div>
        )
 }
